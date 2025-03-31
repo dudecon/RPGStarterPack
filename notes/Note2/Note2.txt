@@ -1,0 +1,2 @@
+Fix the music so it plays per room instead of from the player
+make battle music
