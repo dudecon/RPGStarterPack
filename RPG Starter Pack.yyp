@@ -44,6 +44,7 @@
     {"id":{"name":"act_run","path":"objects/act_run/act_run.yy",},},
     {"id":{"name":"btl_ref","path":"objects/btl_ref/btl_ref.yy",},},
     {"id":{"name":"btl_sherpa","path":"objects/btl_sherpa/btl_sherpa.yy",},},
+    {"id":{"name":"obj_battle_foe","path":"objects/obj_battle_foe/obj_battle_foe.yy",},},
     {"id":{"name":"obj_enemy_1","path":"objects/obj_enemy_1/obj_enemy_1.yy",},},
     {"id":{"name":"obj_enemy_2","path":"objects/obj_enemy_2/obj_enemy_2.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
