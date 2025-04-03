@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"act_atkH",
+  "%Name":"ob_MusicManager",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"act_atkH",
+  "name":"ob_MusicManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"battle",
-    "path":"folders/Objects/battle.yy",
+    "name":"audio",
+    "path":"folders/Objects/audio.yy",
   },
-  "parentObjectId":{
-    "name":"act_par",
-    "path":"objects/act_par/act_par.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_heavy",
-    "path":"sprites/spr_button_heavy/spr_button_heavy.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

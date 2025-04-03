@@ -1,4 +1,4 @@
 
-apply_attack();
+if apply_attack() exit;
 
 phase = 0;

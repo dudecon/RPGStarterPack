@@ -1,0 +1,1 @@
+attack_animation(3);

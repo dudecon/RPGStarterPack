@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"battle","folderPath":"folders/Objects/battle.yy","name":"battle","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"audio","folderPath":"folders/Objects/audio.yy","name":"audio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -44,6 +45,8 @@
     {"id":{"name":"act_run","path":"objects/act_run/act_run.yy",},},
     {"id":{"name":"btl_ref","path":"objects/btl_ref/btl_ref.yy",},},
     {"id":{"name":"btl_sherpa","path":"objects/btl_sherpa/btl_sherpa.yy",},},
+    {"id":{"name":"ob_MusicManager_battle","path":"objects/ob_MusicManager_battle/ob_MusicManager_battle.yy",},},
+    {"id":{"name":"ob_MusicManager","path":"objects/ob_MusicManager/ob_MusicManager.yy",},},
     {"id":{"name":"obj_battle_foe","path":"objects/obj_battle_foe/obj_battle_foe.yy",},},
     {"id":{"name":"obj_enemy_1","path":"objects/obj_enemy_1/obj_enemy_1.yy",},},
     {"id":{"name":"obj_enemy_2","path":"objects/obj_enemy_2/obj_enemy_2.yy",},},
@@ -51,6 +54,8 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"main_level","path":"rooms/main_level/main_level.yy",},},
     {"id":{"name":"room_battle","path":"rooms/room_battle/room_battle.yy",},},
+    {"id":{"name":"RPG_Battle","path":"sounds/RPG_Battle/RPG_Battle.yy",},},
+    {"id":{"name":"RPG_bnap","path":"sounds/RPG_bnap/RPG_bnap.yy",},},
     {"id":{"name":"RPG_Soundtrack","path":"sounds/RPG_Soundtrack/RPG_Soundtrack.yy",},},
     {"id":{"name":"btlbkgd","path":"sprites/btlbkgd/btlbkgd.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
@@ -80,7 +85,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"main_level","path":"rooms/main_level/main_level.yy",},},
-    {"roomId":{"name":"room_battle","path":"rooms/room_battle/room_battle.yy",},},
+    {"children":[
+        {"roomId":{"name":"room_battle","path":"rooms/room_battle/room_battle.yy",},},
+      ],"groupName":"Non-gameline-rooms",},
   ],
   "templateType":"game",
   "TextureGroups":[

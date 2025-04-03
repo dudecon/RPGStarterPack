@@ -1,3 +1,12 @@
+if disabled exit;
+
+if (hp <= 0)
+{
+	disabled = true;
+	alarm[0] = 99;
+	exit;
+}
+
 var _hor = keyboard_check(ord("D")) + keyboard_check(vk_right) - keyboard_check(ord("A")) - keyboard_check(vk_left);
 var _ver = keyboard_check(ord("S")) + keyboard_check(vk_down) - keyboard_check(ord("W")) - keyboard_check(vk_up);
 move_and_collide(_hor*move_speed, _ver*move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
@@ -18,3 +27,4 @@ else // no movement
 	else if (sprite_index == spr_player_walk_left) sprite_index = spr_player_idle_left;
 	//else sprite_index = spr_box; // this should never trigger, except on every frame after stopping movement
 }
+

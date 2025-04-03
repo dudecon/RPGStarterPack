@@ -1,4 +1,4 @@
-
+if disabled exit;
 if instance_exists(btl_sherpa) exit;
 
 var _sherpa = instance_create_depth(0,0,0,btl_sherpa);

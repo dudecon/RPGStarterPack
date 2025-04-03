@@ -1,3 +1,12 @@
+if disabled exit;
+
+if (hp <= 0)
+{
+	disabled = true;
+	alarm[1] = 45;
+	exit;
+}
+
 var _hor = clamp(targ_x - x, -1,1);
 var _ver = clamp(targ_y - y, -1,1);
 
